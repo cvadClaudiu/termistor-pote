@@ -1,4 +1,5 @@
   RO
+  
 În cadrul acestui proiect veți dezvolta o aplicație bazată pe sistemul de operare de timp
 real freeRTOS și diverse componente pentru a gestiona mai multe task-uri.
 Aplicația trebuie să citească temperatura folosind un termistor (de preferat NTC 10k) la
@@ -17,6 +18,7 @@ temperatura citită, factorul de umplere. Suplimentar, puteți afișa și alte i
 obligatoriu ca aplicația să conțină și un GUI. Puteți afișa aceste date într-un terminal.
 
   ENG
+  
 In this project, you will develop an application based on the FreeRTOS real-time operating system and various components to manage multiple tasks.
 The application must read the temperature using a thermistor (preferably an NTC 10k) every x milliseconds and convert the measured value. A PWM signal will be generated with a duty cycle directly proportional to the measured temperature value.
 Ideally, this PWM signal should be sent to a fan (but an LED can also be connected to that output).
